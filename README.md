@@ -1,6 +1,6 @@
 # MICP-2018
 
-MICP is Microsoft Interview Coaching Program.
+MICP is Microsoft Interview Coaching Pilot.
 
-This repository includes solutions to all the homework assignments in the MICP program.
+This repository includes solutions to all the tasks and homework assignments in the MICP program.
 
