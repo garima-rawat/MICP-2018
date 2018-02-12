@@ -13,6 +13,9 @@ public:
         
         
         for(i=0;i<n;i++){
+            if(s[i]==' ')
+                continue;
+            
             if(m.find(s[i])==m.end() || m[s[i]]<j){
                 m[s[i]]=i;
                 loc_max++;
