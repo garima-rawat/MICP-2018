@@ -9,6 +9,7 @@ Given num = 38, the process is like: 3 + 8 = 11, 1 + 1 = 2. Since 2 has only one
 
 class Solution {
 public:
+    
     int addDigits(int num) {
         if(num/10==0)
             return num;
