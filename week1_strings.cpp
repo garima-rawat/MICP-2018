@@ -35,5 +35,28 @@ public:
         return global_max;
         
     }
+    bool testing(){
+        //tesing empty string
+        if(lengthOfLongestSubstring("")!=0)
+            return false;
+        //testing for case sensitivity
+        if(lengthOfLongestSubstring("aA")!=1)
+            return false;
+        //testing for space considering it invalid
+        if(lengthOfLongestSubstring("hello spaces")!=-1)
+            return false;
+        //testing for all set of characters (numbers and special characters)
+        if(lengthOfLongestSubstring("123@asA")!=7)
+            return false;
+        //testing for no string with unique characters
+        if(lengthOfLongestSubstring("abcd")!=4)
+            return false;
+        //testing for same character
+        if(lengthOfLongestSubstring("gggggg")!=6)
+            return false;
+        //random example
+        if(lengthOfLongestSubstring("abcdbca")!=4
+           return false;
+    }
 };
 
