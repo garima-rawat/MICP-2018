@@ -40,7 +40,7 @@ public:
         if(lengthOfLongestSubstring("")!=0)
             return false;
         //testing for case sensitivity
-        if(lengthOfLongestSubstring("aA")!=1)
+        if(lengthOfLongestSubstring("aA")!=2)
             return false;
         //testing for space considering it invalid
         if(lengthOfLongestSubstring("hello spaces")!=-1)
@@ -52,7 +52,7 @@ public:
         if(lengthOfLongestSubstring("abcd")!=4)
             return false;
         //testing for same character
-        if(lengthOfLongestSubstring("gggggg")!=6)
+        if(lengthOfLongestSubstring("gggggg")!=1)
             return false;
         //random example
         if(lengthOfLongestSubstring("abcdbca")!=4
