@@ -1,5 +1,4 @@
 //As per solution submitted on leetcode
-
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) { 
@@ -40,7 +39,7 @@ public:
         if(lengthOfLongestSubstring("")!=0)
             return false;
         //testing for case sensitivity
-        if(lengthOfLongestSubstring("aA")!=2)
+        if(lengthOfLongestSubstring("abAB")!=4)
             return false;
         //testing for space considering it invalid
         if(lengthOfLongestSubstring("hello spaces")!=-1)
