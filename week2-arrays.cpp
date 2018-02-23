@@ -3,7 +3,7 @@ using namespace std;
 
 typedef vector <vector <int> > vect;
 
-vect func(int a[],int n)
+vect tripletSum(int a[],int n)
 {
     int i,j,k;
     vect v;
@@ -17,10 +17,10 @@ vect func(int a[],int n)
         while(j<k)
         {
             if(a[i]+a[j]+a[k]>0)
-            k--;
+            {k--;}
             
             else if(a[i]+a[j]+a[k]<0)
-            j++;
+            {j++;}
             
             else
             {
@@ -42,7 +42,7 @@ vect func(int a[],int n)
                     v.push_back(ve);
                 }
                 j++;
-                k++;
+                k--;
                 
             }
             
@@ -68,7 +68,7 @@ int main()
     {
         vect v;
         
-        v=func(a,n);
+        v=tripletSum(a,n);
         
         if(v.size()==0)
         cout<<"Triplet not found\n";
