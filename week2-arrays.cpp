@@ -78,8 +78,7 @@ int main()
             
             for(i=0;i<v.size();i++)
             {
-                for(int j=0;j<3;j++)
-                cout<<v[i][j]<<" ";
+                cout<<v[i][0]<<" "<<v[i][1]<<" "<<v[i][2];
                 cout<<"\n";
             }
         }
