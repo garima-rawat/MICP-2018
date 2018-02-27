@@ -129,7 +129,7 @@ int main()
     string s;
     cin>>s;
     bool ans = wordBreak(s,dictionary);
-    cout<<ans;
+    cout<<ans<<"\n";
     //cout<<test();
 
 
