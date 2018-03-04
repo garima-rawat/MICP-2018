@@ -157,7 +157,11 @@ int main()
     insert(&head,1);
     insert(&head,2);
     insert(&head,3);
-    cout<<isPalindrome(head);
-    cout<<test();
+    if(isPalindrome(head))
+        cout<<"Palindrome";
+    else
+        cout<<"Not a Palindrome";
+    
+    //cout<<test();
     return 1;
 }
